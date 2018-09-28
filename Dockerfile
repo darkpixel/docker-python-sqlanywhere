@@ -1,4 +1,4 @@
-FROM python:3.4-stretch
+FROM python:3.6-stretch
 
 #RUN apt-get install -y jpeg-dev postgresql-dev postgresql-client pcre-dev py-openssl curl vim tini bash libc6-compat libnsl libnsl-dev
 RUN apt-get update; apt-get install -y libpq-dev curl vim bash
