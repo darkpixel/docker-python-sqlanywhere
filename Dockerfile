@@ -1,7 +1,7 @@
 FROM python:3.6-stretch
 
 #RUN apt-get install -y jpeg-dev postgresql-dev postgresql-client pcre-dev py-openssl curl vim tini bash libc6-compat libnsl libnsl-dev
-RUN apt-get update; apt-get install -y libpq-dev curl vim bash
+RUN apt-get update; apt-get install -y libpq-dev curl vim bash libldap2-dev libsasl2-dev
 
 WORKDIR /tmp
 RUN curl http://d5d4ifzqzkhwt.cloudfront.net/sqla16client/sqla16_client_linux_x86x64.tar.gz | tar xvzf -
