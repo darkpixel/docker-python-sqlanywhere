@@ -1,3 +1,10 @@
+
+v0.0.6 / 2019-01-02
+==================
+
+  * Include libsasl2-dev lib for LDAP
+  * Include libldap2-dev to build python-ldap
+
 v0.0.5 / 2018-09-27
 ==================
 
