@@ -1,4 +1,9 @@
 
+0.0.9 / 2020-10-05
+==================
+
+  * Switch to python3.8-slim-buster and fix new sqlanywhere path
+
 0.0.8 / 2020-03-12
 ==================
 
