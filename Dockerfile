@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM python:3.9.7-slim-buster
 
 #RUN apt-get install -y jpeg-dev postgresql-dev postgresql-client pcre-dev py-openssl curl vim tini bash libc6-compat libnsl libnsl-dev
 RUN apt-get update; apt-get install -y libpq-dev curl vim bash libldap2-dev libsasl2-dev
