@@ -1,4 +1,10 @@
 
+0.0.10 / 2021-10-22
+==================
+
+  * Switch builds to github since dockerhub is now charging for public builds
+  * Update buster version
+
 0.0.9 / 2020-10-05
 ==================
 
