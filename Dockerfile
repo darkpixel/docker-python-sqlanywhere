@@ -9,6 +9,8 @@ WORKDIR /tmp/client17010/
 
 RUN bash -c "./setup -nogui -ss -I_accept_the_license_agreement -d /opt/sqlanywhere -n Docker -c Docker -install sqlany_client32,sqlany_client64"
 
-ENV SQLANY16="/opt/sqlanywhere"
-ENV PATH="$PATH:$SQLANY16/bin64:$SQLANY16/bin32:${PATH:-}"
-ENV LD_LIBRARY_PATH="$SQLANY16/lib32:$SQLANY16/lib64:${LD_LIBRARY_PATH:-}"
+ENV SQLANY17="/opt/sqlanywhere"
+ENV PATH="$SQLANY17/bin64:$SQLANY17/bin32:${PATH:-}"
+ENV NODE_PATH="$SQLANY17/node:${NODE_PATH:-}"
+ENV LD_LIBRARY_PATH="$SQLANY17/lib32:${LD_LIBRARY_PATH:-}"
+ENV LD_LIBRARY_PATH="$SQLANY17/lib64:${LD_LIBRARY_PATH:-}"

@@ -1,4 +1,9 @@
 
+0.0.12 / 2021-10-22
+==================
+
+  * New sqlanywhere version broke things. Lame. Fixed.
+
 0.0.11 / 2021-10-22
 ==================
 
